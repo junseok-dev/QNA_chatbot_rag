@@ -1,0 +1,20 @@
+streamlit
+langchain
+langchain-openai
+langchain-community
+faiss-cpu
+python-dotenv
+
+
+# 라이브러리 임포트 최신 버전 (2026.01)
+# import streamlit as st
+# import json
+# import os
+# from dotenv import load_dotenv
+
+# from langchain_openai import OpenAIEmbeddings, ChatOpenAI
+# from langchain_community.vectorstores import FAISS
+# from langchain_core.documents import Document
+# from langchain_core.prompts import ChatPromptTemplate
+# from langchain_core.output_parsers import StrOutputParser
+# from langchain_core.runnables import RunnablePassthrough
