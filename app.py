@@ -30,7 +30,7 @@ def get_vector_db(api_key):
     if not api_key:
         return None, None
         
-    file_path = 'data/faq_chatbot_data.json'
+    file_path = 'faq_chatbot_data.json'
     if not os.path.exists(file_path):
         st.error(f"'{file_path}' 파일을 찾을 수 없습니다.")
         st.stop()
@@ -137,3 +137,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
